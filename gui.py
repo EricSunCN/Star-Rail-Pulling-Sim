@@ -1,6 +1,9 @@
 #imports
 import tkinter as tk
 from tkinter import ttk
+from tkinter import *
+
+
 
 #gui window
 root = tk.Tk()
