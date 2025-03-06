@@ -11,12 +11,19 @@ from contextlib import nullcontext
 pity = 0
 tenPullResults = [] #array to store the results of the ten pull
 standardBannerCharacters = ['Welt', 'Himeko', 'Bronya', 'Gepard', 'Clara', 'Yanqing', 'Bailu']
-limitedFiveStar = "Seele"
+limitedFiveStar = ""
 limitedFourStar = ['March 7th', 'Hook', 'Dan Heng']
 fourStarPity = 0
  #Because there are just too much and I don't want to type them all in
 fourStarGuarantee = 0
 
+#Allows the limited five star character to be switched depending on the banner
+def limitedFiveStarOne():
+    global limitedFiveStar
+    limitedFiveStar = 'Seele'
+def limitedFiveStarTwo():
+    global limitedFiveStar
+    limitedFiveStar = 'Tribbie'
 
 def tally():
     global pity
@@ -131,4 +138,14 @@ def tenPull():
     while counter < 10:
         pull(tenPullResults, fourStarCharacters, fourStarLightcone)
         counter += 1
+    print(tenPullResults)
+
+def singlePull():
+    global tenPullResults
+    fourStarCharacters = ['March 7th', 'Dan Heng', 'Arlan', 'Asta', 'Herta', 'Serval', 'Natasha', 'Pela', 'Sampo',
+                          'Hook', 'Lynx', 'Luka', 'Qingque', 'Tingyun', 'Sushang', 'Yukong', 'Guinaifen', 'Xueyi',
+                          'Hanya', 'Moze', 'Gallagher', 'Misha']
+    fourStarLightcone = ["Example Lightcone"]
+    tenPullResults = []
+    pull(tenPullResults, fourStarCharacters, fourStarLightcone)
     print(tenPullResults)
