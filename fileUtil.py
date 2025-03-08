@@ -11,3 +11,4 @@ def openFile(file_path):
     except json.JSONDecodeError:
         print("Invalid JSON format.")
         return {}  # Return an empty dictionary or handle it as needed
+    #This is still under development, DO NOT call this function, it leaks memory.
