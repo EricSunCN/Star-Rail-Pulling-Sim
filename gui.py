@@ -60,6 +60,7 @@ limitedBannerTwoBg = Image.open('backgroundImage/limitedBannerTwoBackground.jpg'
 limitedBannerTwoIc = Image.open('backgroundImage/limitedBannerTwoIcon.jpg')
 singlePullIc = Image.open('backgroundImage/singlePull.jpg')
 tenPullIc = Image.open('backgroundImage/tenPull.jpg')
+#Add all of this to json file
 
 #Resize
 defaultResized = default.resize((700,400))

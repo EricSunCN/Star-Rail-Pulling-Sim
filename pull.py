@@ -16,6 +16,7 @@ limitedFourStar = ['March 7th', 'Hook', 'Dan Heng']
 fourStarPity = 0
  #Because there are just too much and I don't want to type them all in
 fourStarGuarantee = 0
+#Some of this belongs in json (seperate files) e.g. 4starsStandardBanner.json, 5starsStandardBanner.json, etc.
 
 #Allows the limited five star character to be switched depending on the banner
 def limitedFiveStarOne():
