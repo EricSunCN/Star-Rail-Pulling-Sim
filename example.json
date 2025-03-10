@@ -1,0 +1,202 @@
+[
+    {
+        "name": "Bronya",
+        "rarity": 5,
+        "element": "Wind",
+        "path": "Harmony",
+        "base_stats": {
+            "HP": 1158,
+            "ATK": 601,
+            "DEF": 463,
+            "Speed": 99
+        },
+        "abilities": {
+            "basic_attack": {
+                "name": "Windrider Bullet",
+                "type": "Single Target",
+                "description": "Deals Wind DMG equal to 50% of ATK to a single enemy."
+            },
+            "skill": {
+                "name": "Combat Redeployment",
+                "type": "Support",
+                "description": "Dispels a debuff from an ally, allowing them to take action immediately with an ATK boost."
+            },
+            "ultimate": {
+                "name": "The Belobog March",
+                "type": "Support",
+                "description": "Increases ATK and CRIT DMG of all allies for 2 turns."
+            },
+            "talent": {
+                "name": "Leading the Way",
+                "description": "Increases CRIT DMG of all allies."
+            },
+            "technique": {
+                "name": "Banner of Command",
+                "description": "Increases ATK of all allies by 20% for the next battle."
+            }
+        },
+        "faction": "Belobog",
+        "weapon": "Gun",
+        "release_date": "2023-04-26"
+    },
+    {
+        "name": "Gepard",
+        "rarity": 5,
+        "element": "Ice",
+        "path": "Preservation",
+        "base_stats": {
+            "HP": 1397,
+            "ATK": 543,
+            "DEF": 635,
+            "Speed": 92
+        },
+        "abilities": {
+            "basic_attack": {
+                "name": "Frost Shot",
+                "type": "Single Target",
+                "description": "Deals Ice DMG equal to 50% of ATK to a single enemy."
+            },
+            "skill": {
+                "name": "Intimidating Strike",
+                "type": "Shield",
+                "description": "Grants a shield to all allies based on Gepard's DEF."
+            },
+            "ultimate": {
+                "name": "Enduring Bulwark",
+                "type": "Defense",
+                "description": "Deals AoE Ice DMG and grants a stronger shield to all allies."
+            },
+            "talent": {
+                "name": "Unyielding Will",
+                "description": "Revives Gepard once per battle with 25% HP if knocked down."
+            },
+            "technique": {
+                "name": "Force of Defense",
+                "description": "Starts battle with a shield based on DEF for all allies."
+            }
+        },
+        "faction": "Silvermane Guards",
+        "weapon": "Claymore",
+        "release_date": "2023-04-26"
+    },
+    {
+        "name": "Himeko",
+        "rarity": 5,
+        "element": "Fire",
+        "path": "Erudition",
+        "base_stats": {
+            "HP": 1027,
+            "ATK": 736,
+            "DEF": 436,
+            "Speed": 99
+        },
+        "abilities": {
+            "basic_attack": {
+                "name": "Sawblade Tuning",
+                "type": "Single Target",
+                "description": "Deals Fire DMG equal to 50% of ATK to a single enemy."
+            },
+            "skill": {
+                "name": "Molten Detonation",
+                "type": "AoE",
+                "description": "Deals Fire DMG to all enemies based on ATK."
+            },
+            "ultimate": {
+                "name": "Heavenly Flare",
+                "type": "AoE",
+                "description": "Deals massive Fire DMG to all enemies."
+            },
+            "talent": {
+                "name": "Victory Rush",
+                "description": "Triggers a follow-up attack after breaking enemy toughness."
+            },
+            "technique": {
+                "name": "Incomplete Combustion",
+                "description": "Starts battle by dealing Fire DMG to all enemies."
+            }
+        },
+        "faction": "Astral Express",
+        "weapon": "Cannon",
+        "release_date": "2023-04-26"
+    },
+    {
+        "name": "Clara",
+        "rarity": 5,
+        "element": "Physical",
+        "path": "Destruction",
+        "base_stats": {
+            "HP": 1300,
+            "ATK": 683,
+            "DEF": 482,
+            "Speed": 90
+        },
+        "abilities": {
+            "basic_attack": {
+                "name": "I Want to Help",
+                "type": "Single Target",
+                "description": "Deals Physical DMG equal to 50% of ATK to a single enemy."
+            },
+            "skill": {
+                "name": "Svarog Watches Over You",
+                "type": "Counter",
+                "description": "Triggers a counter when Clara is attacked."
+            },
+            "ultimate": {
+                "name": "Promise, Not Command",
+                "type": "Buff",
+                "description": "Increases counter DMG and reduces DMG taken."
+            },
+            "talent": {
+                "name": "Because We’re Family",
+                "description": "Reduces DMG taken when near Svarog."
+            },
+            "technique": {
+                "name": "Small Price for Victory",
+                "description": "Deals AoE Physical DMG to enemies before battle."
+            }
+        },
+        "faction": "Wildfire",
+        "weapon": "Greatsword",
+        "release_date": "2023-04-26"
+    },
+    {
+        "name": "Welt",
+        "rarity": 5,
+        "element": "Imaginary",
+        "path": "Nihility",
+        "base_stats": {
+            "HP": 1175,
+            "ATK": 640,
+            "DEF": 507,
+            "Speed": 102
+        },
+        "abilities": {
+            "basic_attack": {
+                "name": "Gravity Suppression",
+                "type": "Single Target",
+                "description": "Deals Imaginary DMG equal to 50% of ATK."
+            },
+            "skill": {
+                "name": "Edge of the Void",
+                "type": "Debuff",
+                "description": "Deals Imaginary DMG and slows enemies."
+            },
+            "ultimate": {
+                "name": "Synthetic Black Hole",
+                "type": "AoE",
+                "description": "Deals AoE Imaginary DMG and imprisons enemies."
+            },
+            "talent": {
+                "name": "Time Distortion",
+                "description": "Slows enemies hit by basic attack."
+            },
+            "technique": {
+                "name": "Gravitational Imprisonment",
+                "description": "Immobilizes enemies at the start of battle."
+            }
+        },
+        "faction": "Astral Express",
+        "weapon": "Staff",
+        "release_date": "2023-04-26"
+    }
+]
