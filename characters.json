@@ -1,0 +1,9 @@
+{
+    "standardBannerCharacters": ["Welt", "Himeko", "Bronya", "Gepard", "Clara", "Yanqing", "Bailu"],
+    "limitedFourStar": ["March 7th", "Hook", "Dan Heng"],
+    "limitedFiveStar": [""],
+    "fourStarCharacters": ["March 7th", "Dan Heng", "Arlan", "Asta", "Herta", "Serval", "Natasha", "Pela", "Sampo",
+                           "Hook", "Lynx", "Luka", "Qingque", "Tingyun", "Sushang", "Yukong", "Guinaifen", "Xueyi",
+                           "Hanya", "Moze", "Gallagher", "Misha"],
+    "fourStarLightcone": ["Example Lightcone"]
+}

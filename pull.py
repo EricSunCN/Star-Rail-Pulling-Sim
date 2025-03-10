@@ -4,15 +4,17 @@
 import random
 #from gui import *
 from contextlib import nullcontext
+from fileUtil import openFile
 
 
 
 #variables
 pity = 0
 tenPullResults = [] #array to store the results of the ten pull
-standardBannerCharacters = ['Welt', 'Himeko', 'Bronya', 'Gepard', 'Clara', 'Yanqing', 'Bailu']
-limitedFiveStar = ""
-limitedFourStar = ['March 7th', 'Hook', 'Dan Heng']
+characters = openFile("characters.json", {})
+standardBannerCharacters = characters.get("standardBannerCharacters", [])
+limitedFiveStar = characters.get("limitedFiveStar", [])
+limitedFourStar = characters.get("limitedFourStar", [])
 fourStarPity = 0
  #Because there are just too much and I don't want to type them all in
 fourStarGuarantee = 0
@@ -130,10 +132,8 @@ def pull(tenPullResults, fourStarCharacters, fourStarLightcone):
 
 def tenPull():
     global tenPullResults
-    fourStarCharacters = ['March 7th', 'Dan Heng', 'Arlan', 'Asta', 'Herta', 'Serval', 'Natasha', 'Pela', 'Sampo',
-                          'Hook', 'Lynx', 'Luka', 'Qingque', 'Tingyun', 'Sushang', 'Yukong', 'Guinaifen', 'Xueyi',
-                          'Hanya', 'Moze', 'Gallagher', 'Misha']
-    fourStarLightcone = ["Example Lightcone"]
+    fourStarCharacters = characters.get("fourStarCharacters", [])
+    fourStarLightcone = characters.get("fourStarLightcone", [])
     tenPullResults = []
     counter = 0
     while counter < 10:
@@ -143,10 +143,8 @@ def tenPull():
 
 def singlePull():
     global tenPullResults
-    fourStarCharacters = ['March 7th', 'Dan Heng', 'Arlan', 'Asta', 'Herta', 'Serval', 'Natasha', 'Pela', 'Sampo',
-                          'Hook', 'Lynx', 'Luka', 'Qingque', 'Tingyun', 'Sushang', 'Yukong', 'Guinaifen', 'Xueyi',
-                          'Hanya', 'Moze', 'Gallagher', 'Misha']
-    fourStarLightcone = ["Example Lightcone"]
+    fourStarCharacters = characters.get("fourStarCharacters", [])
+    fourStarLightcone = characters.get("fourStarLightcone", [])
     tenPullResults = []
     pull(tenPullResults, fourStarCharacters, fourStarLightcone)
     print(tenPullResults)
